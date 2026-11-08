@@ -196,7 +196,7 @@ div[data-testid=instructor-toolbar] {
     }
 }
 .react-loading-skeleton {
-    --base-color: #36383B;
+    --base-color: #20323A;
     --highlight-color: #000;
 }
 .pgn__pageBanner__accentA {
@@ -264,12 +264,12 @@ a.course-card-title {
         color: var(--pgn-color-success-base) !important;
     }
     .layout {
-        background: #0D0D0E;
+        background: #18262C;
         &:before {
-            box-shadow: 400px 400px 143px 90px rgba(#211E82, 0.45);
+            box-shadow: 400px 400px 143px 90px rgba(#26D9C6, 0.16);
         }
         &:after {
-            box-shadow: 400px -400px 143px 90px rgba(#211E82, 0.45);
+            box-shadow: 400px -400px 143px 90px rgba(#26D9C6, 0.16);
         }
         .content {
             background: var(--pgn-color-primary-light);
@@ -316,7 +316,7 @@ a.course-card-title {
             }
         }
         .dropdown-menu {
-            box-shadow: 0px 0px 0px 1px rgba(#fff, 0.8), 0px 4px 6px -2px rgba(#fff, 0.05), 0px 10px 15px -3px rgba(#fff, 0.1);
+            box-shadow: 0px 0px 0px 1px #2E4048, 0px 4px 6px -2px rgba(#fff, 0.05), 0px 10px 15px -3px rgba(#fff, 0.1);
             background: var(--pgn-color-bg-light-overlay);
             a {
                 color: var(--pgn-color-text-primary);
@@ -332,8 +332,8 @@ a.course-card-title {
     }
     .learner-variant-header {
         &:after {
-            background: #0D0D0E;
-            box-shadow: 0px 1px 2px 0px rgba(#fff, 0.8), 0px 1px 3px 0px rgba(#fff, 0.1);
+            background: #18262C;
+            box-shadow: 0px 1px 2px 0px #2E4048, 0px 1px 3px 0px rgba(#fff, 0.1);
         }
         .btn.btn-inverse-primary {
             color: var(--pgn-color-text-base);
@@ -433,7 +433,7 @@ a.course-card-title {
                             }
                             .dropdown-menu {
                                 overflow: hidden;
-                                box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.8), 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1);
+                                box-shadow: 0px 0px 0px 1px #2E4048, 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1);
                                 background: var(--pgn-color-bg-light-overlay);
                                 a {
                                     color: var(--pgn-color-text-base) !important;
@@ -478,7 +478,7 @@ a.course-card-title {
                 }
                 #course-filter-controls-card {
                     background: var(--pgn-color-bg-light-overlay) !important;
-                    box-shadow: 0px 0px 0px 1px rgba(#fff, 0.8), 0px 4px 6px -2px rgba(#fff, 0.05), 0px 10px 15px -3px rgba(#fff, 0.10) !important;
+                    box-shadow: 0px 0px 0px 1px #2E4048, 0px 4px 6px -2px rgba(#fff, 0.05), 0px 10px 15px -3px rgba(#fff, 0.10) !important;
                     .filter-form-col {
                         &.text-left {
                             border-left: 1px solid #ECF0F4;
@@ -556,7 +556,7 @@ footer.tutor-container .copyright-site {
 }
 #root header.customise.learning-header {
     background: none;
-    box-shadow: 0px 1px 2px 0px rgba(255,255,255,0.8),0px 1px 3px 0px rgba(255,255,255,0.1);
+    box-shadow: 0px 1px 2px 0px #2E4048,0px 1px 3px 0px rgba(255,255,255,0.1);
     .course-title-lockup {
         .nav-course {
             a {
@@ -860,7 +860,7 @@ a.discussion-post {
 
 #root header.site-header-mobile {
     background: var(--pgn-color-body-bg);
-    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.8), 0px 1px 3px 0px rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0px 1px 2px 0px #2E4048, 0px 1px 3px 0px rgba(255, 255, 255, 0.1) !important;
     .menu {
         button {
             .hamburger-menu {
@@ -870,7 +870,7 @@ a.discussion-post {
             }
         }
         .menu-content {
-            box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.8), 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 0px 0px 1px #2E4048, 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1);
             background: var(--pgn-color-bg-light-overlay);
             a {
                 color: var(--pgn-color-text-base);
@@ -885,7 +885,7 @@ a.discussion-post {
 }
 #root header.site-header-desktop {
     background: var(--pgn-color-body-bg);
-    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.8), 0px 1px 3px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 2px 0px #2E4048, 0px 1px 3px 0px rgba(255, 255, 255, 0.1);
     .main-nav {
         a.nav-link {
             color: var(--pgn-color-text-base);
@@ -905,7 +905,7 @@ a.discussion-post {
         }
         .menu-content {
             background: var(--pgn-color-bg-light-overlay);
-            box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.8), 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1) !important;
+            box-shadow: 0px 0px 0px 1px #2E4048, 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1) !important;
             a {
                 color: var(--pgn-color-text-base);
                 background: var(--pgn-color-bg-light-overlay) !important;
@@ -978,9 +978,9 @@ a.discussion-post {
     .profile-page-bg-banner {
         background: none !important;
         &:after {
-            box-shadow: 110px -100px 100px 90px rgba(#36383B, 0.55);
-            -webkit-box-shadow: 110px -100px 100px 90px rgba(#36383B, 0.55);
-            -moz-box-shadow: 110px -100px 100px 90px rgba(#36383B, 0.55);
+            box-shadow: 110px -100px 100px 90px rgba(#20323A, 0.55);
+            -webkit-box-shadow: 110px -100px 100px 90px rgba(#20323A, 0.55);
+            -moz-box-shadow: 110px -100px 100px 90px rgba(#20323A, 0.55);
         }
     }
     .container-fluid {
