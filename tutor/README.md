@@ -10,7 +10,7 @@ Paste server commands **one line at a time** (tmux eats pasted blocks).
 ## Install owa_layout (one MFE rebuild)
 
 1. Take a Hostinger snapshot.
-2. `curl -fsSL https://raw.githubusercontent.com/uberearthmann/owa-brand/<COMMIT>/tutor/owa_layout.py -o "$(tutor plugins printroot)/owa_layout.py"`
+2. `curl -fsSL https://raw.githubusercontent.com/uberearthmann/owa-brand/272d48be7571d6eb96a6f73e3760798345e1b51e/tutor/owa_layout.py -o "$(tutor plugins printroot)/owa_layout.py"`
 3. `tutor plugins enable owa_layout`
 4. `tutor config save`
 5. `grep -c Owa "$(tutor config printroot)/env/plugins/mfe/build/mfe/env.config.jsx"` (expect about 25; 0 means the plugin is not enabled)
