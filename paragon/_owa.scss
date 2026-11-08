@@ -1,0 +1,80 @@
+// Open Worlds layer (v1.0.0, Nov 8 2026). Loaded last in core.css.
+// Source of truth for the values: owa-courses/design/web/brand/owa-tokens.css
+// Kept deliberately small: color, type, shape. Layout is untouched.
+
+:root {
+  --ow-ink: #18262C;
+  --ow-surface: #20323A;
+  --ow-line: #2E4048;
+  --ow-magenta: #FE019A;
+  --ow-teal: #26D9C6;
+  --ow-teal-deep: #1F7F7C;
+  --ow-font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ow-radius-control: 12px;
+  --ow-radius-card: 20px;
+}
+
+body {
+  font-family: var(--ow-font);
+}
+
+h1, .h1, h2, .h2 {
+  font-family: var(--ow-font);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+// Primary buttons: magenta with ink text (as in the approved screens)
+.btn-primary,
+.btn-brand {
+  background-color: var(--ow-magenta) !important;
+  border-color: var(--ow-magenta) !important;
+  color: var(--ow-ink) !important;
+  font-weight: 800;
+  border-radius: var(--ow-radius-control);
+
+  &:hover,
+  &:focus,
+  &.focus {
+    background-color: #E00088 !important;
+    border-color: #E00088 !important;
+    color: var(--ow-ink) !important;
+  }
+}
+
+.btn {
+  border-radius: var(--ow-radius-control);
+}
+
+// Visible keyboard focus everywhere
+:focus-visible {
+  outline: 3px solid var(--ow-teal) !important;
+  outline-offset: 2px;
+}
+
+// Cards: rounder, and course art keeps its own 16:9 shape (never crop)
+.pgn__card {
+  border-radius: var(--ow-radius-card);
+  overflow: hidden;
+}
+
+.pgn__card-image-cap,
+.pgn__card-wrapper-image-cap img,
+.course-card img {
+  aspect-ratio: 16 / 9;
+  height: auto !important;
+  object-fit: contain !important;
+  background: var(--ow-ink);
+}
+
+// Progress and done states in teal
+.progress-bar,
+.pgn__progress-bar .progress-bar {
+  background-color: var(--ow-teal) !important;
+}
+
+// Active nav tab underline in magenta
+.nav-underline-tabs .nav-link.active,
+.course-tabs-navigation .nav-link.active {
+  border-bottom-color: var(--ow-magenta) !important;
+}
