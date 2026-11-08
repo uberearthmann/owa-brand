@@ -105,3 +105,13 @@ header.course-header {
 a:not(.btn) {
   color: var(--ow-magenta);
 }
+
+// Header logo: the magenta Open Worlds lockup (reads on ink)
+header .logo img,
+.site-header-desktop .logo img,
+.site-header-mobile .logo img,
+.learning-header .logo img {
+  content: url("https://cdn.jsdelivr.net/gh/uberearthmann/owa-brand@v1.1.0/owa-logo.svg");
+  height: 28px !important;
+  width: auto;
+}
