@@ -78,3 +78,30 @@ h1, .h1, h2, .h2 {
 .course-tabs-navigation .nav-link.active {
   border-bottom-color: var(--ow-magenta) !important;
 }
+
+// ---- v1.1: the ink chrome (both variants) ----
+.pgn__card,
+.card {
+  background-color: var(--ow-surface) !important;
+  border-color: var(--ow-line) !important;
+}
+
+.site-header-desktop,
+.site-header-mobile,
+.learning-header,
+header.course-header {
+  background-color: #142026 !important;
+  border-bottom: 1px solid var(--ow-line) !important;
+}
+
+.form-control,
+.pgn__form-control-decorator-group .form-control {
+  background-color: #142026 !important;
+  border-color: var(--ow-line) !important;
+  color: #EDEDED !important;
+  border-radius: var(--ow-radius-control);
+}
+
+a:not(.btn) {
+  color: var(--ow-magenta);
+}

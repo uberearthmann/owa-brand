@@ -1,67 +1,280 @@
 {
   "$type": "color",
   "color": {
+    "light": {
+      "base": {
+        "$value": "#EDEDED",
+        "source": "$primary",
+        "actions": {
+          "default": "{color.light.base}"
+        },
+        "$description": "Basic light color, dark theme."
+      },
+      "700": {
+        "source": "$light-700",
+        "actions": {
+          "default": "{color.light.700}"
+        },
+        "$value": "{color.primary.700}",
+        "$description": "Light color of level 700."
+      }
+    },
     "primary": {
       "100": {
         "source": "$primary-100",
-        "modify": [
-          {
-            "type": "mix",
-            "otherColor": "white",
-            "amount": "0.94"
-          }
-        ],
         "actions": {
-          "default": "{color.action.default.primary.100}"
+          "default": "{color.primary.100}"
         },
-        "$value": "{color.primary.base}",
+        "$value": "#A9BBBF",
         "$description": "Primary color of level 100."
       },
+      "500": {
+        "source": "$primary-500",
+        "actions": {
+          "default": "{color.primary.500}"
+        },
+        "$value": "#8DA0A5",
+        "$description": "Primary color of level 500."
+      },
       "base": {
-        "$value": "#18262C",
+        "$value": "#FE019A",
         "source": "$primary",
-        "$description": "Basic primary color."
+        "actions": {
+          "default": "{color.primary.base}"
+        },
+        "$description": "Basic primary color, dark theme."
+      },
+      "700": {
+        "source": "$primary-700",
+        "actions": {
+          "default": "{color.primary.700}"
+        },
+        "$value": "#2E4048",
+        "$description": "Primary color of level 700."
       },
       "light": {
-        "$value": "#EEF3F3",
+        "$value": "#20323A",
         "source": "$primary-light",
-        "$description": "Light primary color."
-      }
-    },
-    "text": {
-      "base": {
-        "$value": "#18262C",
-        "source": "$text-color",
-        "$description": "Text base color."
+        "actions": {
+          "default": "{color.primary.light}"
+        },
+        "$description": "Light primary color, dark theme."
       },
-      "light": {
-        "$value": "#2C3B41",
-        "source": "$text-color-light",
-        "$description": "Text light color."
-      },
-      "footer": {
-        "$value": "#2C3B41",
-        "source": "$light-dark",
-        "$description": "Footer text color."
-      },
-      "primary": {
-        "$value": "#2C3B41",
-        "source": "$text-color-primary",
-        "$description": "Text primary color."
+      "border": {
+        "$value": "#2E4048",
+        "source": "$primary-border",
+        "actions": {
+          "default": "{color.primary.border}"
+        },
+        "$description": "Primary border color, dark theme."
       }
     },
     "brand": {
       "base": {
         "$value": "#FE019A",
         "source": "$brand",
-        "$description": "Open Worlds magenta."
+        "actions": {
+          "default": "{color.brand.base}"
+        },
+        "$description": "Basic brand color, dark theme."
+      }
+    },
+    "text": {
+      "base": {
+        "$value": "#EDEDED",
+        "source": "$text-color",
+        "actions": {
+          "default": "{color.text.base}"
+        },
+        "$description": "Text base color, dark theme."
+      },
+      "footer": {
+        "$value": "{color.text.primary}",
+        "source": "$footer-color",
+        "actions": {
+          "default": "{color.text.footer}"
+        },
+        "$description": "Footer text color, dark theme."
+      },
+      "primary": {
+        "$value": "#EDEDED",
+        "source": "$text-primary",
+        "actions": {
+          "default": "{color.text.primary}"
+        },
+        "$description": "Text primary color, dark theme."
+      },
+      "button": {
+        "$value": "#18262C",
+        "source": "$btn-color",
+        "actions": {
+          "default": "{color.text.button}"
+        },
+        "$description": "Button text color, dark theme."
+      }
+    },
+    "bg": {
+      "info": {
+        "$value": "{color.primary.light}",
+        "$type": "color",
+        "source": "$btn-info-hover-bg"
+      },
+      "light-overlay": {
+        "$value": "#20323A",
+        "source": "$bg-light-overlay",
+        "actions": {
+          "default": "{color.bg.light-overlay}"
+        },
+        "$description": "Light background overlay color, dark theme."
+      },
+      "hover": {
+        "$value": "#2E4048",
+        "source": "$bg-hover",
+        "actions": {
+          "default": "{color.bg.hover}"
+        },
+        "$description": "Background hover color, dark theme."
+      }
+    },
+    "body": {
+      "bg": {
+        "$value": "#18262C",
+        "source": "$body-bg",
+        "actions": {
+          "default": "{color.body.bg}"
+        },
+        "$description": "Body background color, dark theme."
+      },
+      "base": {
+        "$value": "{color.text.base}",
+        "source": "$body-text",
+        "$description": "Light text color, dark theme."
+      }
+    },
+    "header": {
+      "bg": {
+        "$value": "#142026",
+        "source": "$body-bg",
+        "actions": {
+          "default": "{color.body.bg}"
+        },
+        "$description": "Header background color, dark theme."
+      }
+    },
+    "accent": {
+      "a": {
+        "$value": "{color.primary.base}",
+        "source": "$body-bg",
+        "actions": {
+          "default": "{color.body.bg}"
+        },
+        "$description": "Accent color, dark theme."
       }
     },
     "success": {
-      "base": {
+      "500": {
+        "source": "$success-500",
+        "actions": {
+          "default": "{color.success.500}"
+        },
         "$value": "#1F7F7C",
+        "$description": "Success color of level 500."
+      },
+      "base": {
+        "$value": "#26D9C6",
         "source": "$success",
-        "$description": "Open Worlds teal (deep, for light surfaces)."
+        "actions": {
+          "default": "{color.success.base}"
+        },
+        "$description": "Basic success color, dark theme."
+      }
+    },
+    "danger": {
+      "base": {
+        "$value": "#FFA07A",
+        "source": "$danger",
+        "actions": {
+          "default": "{color.danger.base}"
+        },
+        "$description": "Basic danger color, dark theme."
+      }
+    },
+    "white": {
+      "$value": "{color.body.bg}",
+      "source": "$light-100",
+      "actions": {
+        "default": "{color.body.bg}"
+      },
+      "$description": "Header background color Profile page."
+    },
+    "gray": {
+      "200": {
+        "source": "$gray-200",
+        "actions": {
+          "default": "{color.gray.200}"
+        },
+        "$value": "#EDEDED",
+        "$description": "Gray color of level 200."
+      },
+      "500": {
+        "source": "$gray-500",
+        "actions": {
+          "default": "{color.gray.500}"
+        },
+        "$value": "#8DA0A5",
+        "$description": "Gray color of level 500."
+      },
+      "700": {
+        "source": "$gray-700",
+        "actions": {
+          "default": "{color.gray.700}"
+        },
+        "$value": "#A9BBBF",
+        "$description": "Gray color of level 500."
+      }
+    },
+    "toast": {
+      "bg": {
+        "$value": "{color.primary.light}"
+      },
+      "border": {
+        "$value": "{color.text.base}"
+      }
+    },
+    "border": {
+      "$value": "{color.text.base}"
+    },
+    "bubble": {
+      "bg": {
+        "primary": {
+          "$value": "{color.primary.base}"
+        }
+      }
+    },
+    "stepper": {
+      "header": {
+        "bg": {
+          "line": {
+            "$value": "{color.gray.500}"
+          }
+        }
+      }
+    },
+    "dropzone": {
+      "border": {
+        "base": {
+          "$value": "{color.primary.500}"
+        }
+      }
+    },
+    "black": {
+      "$value": "#000"
+    },
+    "badge": {
+      "bg": {
+        "success": {
+          "$value": "{color.success.500}"
+        }
       }
     }
   },

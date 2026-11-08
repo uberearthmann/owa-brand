@@ -3,7 +3,7 @@
   "color": {
     "light": {
       "base": {
-        "$value": "#DDDFE2",
+        "$value": "#EDEDED",
         "source": "$primary",
         "actions": {
           "default": "{color.light.base}"
@@ -25,7 +25,7 @@
         "actions": {
           "default": "{color.primary.100}"
         },
-        "$value": "#8e9fbf",
+        "$value": "#A9BBBF",
         "$description": "Primary color of level 100."
       },
       "500": {
@@ -33,7 +33,7 @@
         "actions": {
           "default": "{color.primary.500}"
         },
-        "$value": "#747e92",
+        "$value": "#8DA0A5",
         "$description": "Primary color of level 500."
       },
       "base": {
@@ -49,7 +49,7 @@
         "actions": {
           "default": "{color.primary.700}"
         },
-        "$value": "#5a6278",
+        "$value": "#2E4048",
         "$description": "Primary color of level 700."
       },
       "light": {
@@ -97,7 +97,7 @@
         "$description": "Footer text color, dark theme."
       },
       "primary": {
-        "$value": "#DDDFE2",
+        "$value": "#EDEDED",
         "source": "$text-primary",
         "actions": {
           "default": "{color.text.primary}"
@@ -105,7 +105,7 @@
         "$description": "Text primary color, dark theme."
       },
       "button": {
-        "$value": "#112F6B",
+        "$value": "#18262C",
         "source": "$btn-color",
         "actions": {
           "default": "{color.text.button}"
@@ -177,11 +177,11 @@
         "actions": {
           "default": "{color.success.500}"
         },
-        "$value": "#3a8e41",
+        "$value": "#1F7F7C",
         "$description": "Success color of level 500."
       },
       "base": {
-        "$value": "#54CF5E",
+        "$value": "#26D9C6",
         "source": "$success",
         "actions": {
           "default": "{color.success.base}"
@@ -213,7 +213,7 @@
         "actions": {
           "default": "{color.gray.200}"
         },
-        "$value": "#DDDFE2",
+        "$value": "#EDEDED",
         "$description": "Gray color of level 200."
       },
       "500": {
@@ -221,7 +221,7 @@
         "actions": {
           "default": "{color.gray.500}"
         },
-        "$value": "#8C8C8C",
+        "$value": "#8DA0A5",
         "$description": "Gray color of level 500."
       },
       "700": {
@@ -229,7 +229,7 @@
         "actions": {
           "default": "{color.gray.700}"
         },
-        "$value": "#4b5563",
+        "$value": "#A9BBBF",
         "$description": "Gray color of level 500."
       }
     },
